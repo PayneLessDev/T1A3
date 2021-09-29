@@ -10,6 +10,7 @@ require_relative 'lib/ui.rb'
 require_relative 'lib/reader.rb'
 require_relative 'lib/commands.rb'
 
-header()
-body()
+if ARGV.empty?
+  randbook()
+end
 
